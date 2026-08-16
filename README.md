@@ -1,17 +1,22 @@
-# tgbot_miniapp
+# tgbot_miniapp — image clicker mini-app for Telegram 📍
 
-tgbot_miniapp
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## Requirements
+A tiny **Telegram mini-app** that shows an image and lets the user **click to
+place markers**, recording their coordinates — demoing the Telegram Web App
+JS SDK (`telegram-web-app.js`) in a single `ann.html`.
 
-See the source files and build instructions below.
+## What it does
+
+- Display a target image in a scrollable area.
+- Click anywhere on the image to drop a red marker.
+- Track all clicked coordinates in a list.
 
 ## Usage
 
-```bash
-npm install   # if package.json present
-npm start
-```
+Open `ann.html` in a browser (or serve it as a Telegram mini-app). The image
+src and marker styling are inline at the top of the file.
+
 ## License
 
-[MIT](LICENSE) © vheinitz
+[MIT](LICENSE) © Valentin Heinitz
